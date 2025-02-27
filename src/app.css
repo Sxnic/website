@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "M PLUS 1 Variable", sans-serif;
+  --font-mono: "M PLUS 1 Code Variable", monospace;
+}
+
+html {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  scroll-behavior: smooth;
+}
