@@ -18,6 +18,14 @@
   let name = $state(names[0])
   let image = $state(images[0])
 
+  const birthday = new Date('2001-09-24')
+  function calculateAge() {
+		var ageDifMs = Date.now() - birthday.getTime();
+		var ageDate = new Date(ageDifMs);
+
+		return Math.abs(ageDate.getUTCFullYear() - 1970);
+	}
+
   onMount(() => {
     let i = 0
     const interval = setInterval(() => {
@@ -46,7 +54,7 @@
         </div>
       </h1>
       <p class="text-md sm:text-lg">
-        I'm a 23 year old programmer from The Netherlands with a passion for almost anything
+        I'm a {calculateAge()} year old programmer from The Netherlands with a passion for almost anything
         technology and railway.
       </p>
       <p class="text-md sm:text-lg">
