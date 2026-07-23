@@ -3,9 +3,11 @@ import type { APIContext } from "astro"
 import rss from "@astrojs/rss"
 import { getCollection } from "astro:content"
 
+import { env } from "~/utils"
+
 export async function GET(ctx: APIContext) {
   const blog = await getCollection("blog", ({ data }) => !data.draft)
-  const site = ctx.site ?? new URL("http://localhost:4321")
+  const site = ctx.site || new URL(env("BASE_URL", "http://localhost:4321/"))
 
   return rss({
     title: "Sora The Protogen",

@@ -1,8 +1,11 @@
 export const formatDate = (date: Date) =>
   new Intl.DateTimeFormat("en-us", { dateStyle: "medium" }).format(date)
 
-function env(name: string) {
-  return import.meta.env[name] ?? ""
+export function env(name: string, def: string = "") {
+  const value = import.meta.env[name]
+  if (typeof value === "string" && value === "/") return def
+
+  return value || def
 }
 
 export const externalLinks: { icon: string; url: string; name: string }[] = [
