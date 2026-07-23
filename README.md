@@ -1,5 +1,3 @@
-# Personal Website
+# Personal Website and Blog
 
-**Built with [SvelteKit](https://svelte.dev/) and [TailwindCSS](https://tailwindcss.com) v4**
-
-**Utilizes** `adapter-static` **for the most optimal result**
+**Built with [Astro](https://astro.build/) and [TailwindCSS](https://tailwindcss.com) v4**

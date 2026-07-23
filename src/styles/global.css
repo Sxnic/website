@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap");
+
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg: var(--color-black);
+  --color-fg: var(--color-white);
+  --color-link: #00ffff;
+
+  --font-sans: "M PLUS 1", sans-serif;
+}
+
+@utility prose-base {
+  --tw-prose-body: var(--color-fg);
+  --tw-prose-headings: var(--color-fg);
+  --tw-prose-lead: var(--color-fg);
+  --tw-prose-links: var(--color-link);
+  --tw-prose-bold: var(--color-fg);
+  --tw-prose-counters: var(--color-fg);
+  --tw-prose-bullets: var(--color-fg);
+  --tw-prose-hr: var(--color-fg);
+  --tw-prose-quotes: var(--color-fg);
+  --tw-prose-quote-borders: var(--color-fg);
+  --tw-prose-captions: var(--color-fg);
+  --tw-prose-code: var(--color-link);
+  --tw-prose-pre-code: var(--color-fg);
+  --tw-prose-pre-bg: var(--color-bg);
+  --tw-prose-th-borders: var(--color-fg);
+  --tw-prose-td-borders: var(--color-fg);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}

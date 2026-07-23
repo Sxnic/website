@@ -1,0 +1,41 @@
+---
+import { getCollection, render } from "astro:content"
+import { formatDate } from "~/utils"
+
+import Base from "~/components/base.astro"
+import Footer from "~/components/footer.astro"
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog")
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+const { Content } = await render(post)
+---
+
+<Base title="ok">
+  <main class="mx-auto flex min-h-svh w-full max-w-6xl flex-col px-6 pt-12 pb-6">
+    <h1 class="pb-2 text-3xl font-black">{post.data.title}</h1>
+    <p class="pb-2 text-sm">
+      {formatDate(new Date(post.data.date))}
+    </p>
+    <div class="flex flex-row gap-2">
+      {
+        post.data.tags &&
+          post.data.tags.map((tag) => (
+            <p class="bg-fg text-bg rounded-md px-2 py-1 font-bold">{tag}</p>
+          ))
+      }
+    </div>
+
+    <article class="prose prose-base prose-md flex max-w-none flex-1 flex-col pt-8">
+      <Content />
+    </article>
+
+    <Footer />
+  </main>
+</Base>

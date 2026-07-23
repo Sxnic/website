@@ -1,38 +1,38 @@
 {
-  "name": "site",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@sxnic/sora",
   "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "prepare": "svelte-kit sync || echo ''",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "format": "prettier --write .",
-    "lint": "prettier --check ."
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier -w ."
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "plugins": [
+      "prettier-plugin-astro",
+      "prettier-plugin-tailwindcss"
+    ]
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@iconify-json/lucide": "^1.2.112",
+    "@iconify-json/simple-icons": "^1.2.86",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.1",
+    "astro": "^6.4.6",
+    "astro-icon": "^1.1.5",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
-    "@fontsource-variable/m-plus-1": "^5.1.1",
-    "@fontsource-variable/m-plus-1-code": "^5.1.1",
-    "@iconify/svelte": "^4.2.0",
-    "@iconify/utils": "^2.3.0",
-    "@sveltejs/adapter-auto": "^4.0.0",
-    "@sveltejs/adapter-static": "^3.0.8",
-    "@sveltejs/kit": "^2.16.0",
-    "@sveltejs/vite-plugin-svelte": "^5.0.0",
-    "@tailwindcss/vite": "^4.0.0",
-    "mdsvex": "^0.12.3",
-    "prettier": "^3.4.2",
-    "prettier-plugin-svelte": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "shiki": "^3.0.0",
-    "svelte": "^5.0.0",
-    "svelte-check": "^4.0.0",
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.0.0",
-    "unplugin-icons": "^22.1.0",
-    "vite": "^6.0.0"
+    "prettier": "^3.8.4",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.8.0"
   }
 }

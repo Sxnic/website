@@ -1,0 +1,24 @@
+---
+title: "My responsibilities as a furry"
+date: "2026-07-23"
+tags: ["Furry"]
+draft: false
+---
+
+I have joined the furry community back in January 2024 after a friend who recently moved in at the time back in 2023 told me that he's part of the furry fandom. I was so interested in fact that I wanted to do some research on my own. During that time I figured out that almost all of the things my old friends told me back in high school were either misconceptions to complete lies about the furry fandom. Things such as "furries want to be animals!" and "furries are primarily sexualized!" these days often don't hold much weight. And I think it's **obvious** that not all furries own a suit.
+
+People that want to fully act like animals are often associated with being a furry while that should've been classified as a therian. Not all therians are furries, and the same goes with femboys and vice-versa.
+
+Ever since then I have realised that despite the furry fandom being very diverse, that I have a duty to represent the furry fandom in a positive light, despite there obviously being bad apples around that ruin our fun and possibly our reputation as well, resulting in certain anti-fur figures popping up. Scandals like Rainfurrest in 2015 are a clear example of how some bad apples within the fandom can ruin its reputation.
+
+When others that are not part of the fandom ask me about stuff like that, I often bring the community up in a positive light, and even if someone were to discuss some of the scandals mentioned before, I am being very direct and honest about it. I'm also not forcing anyone to join the fandom if they don't want to. I **will** give them the building blocks to allow them to start doing research on their own. I have heard that other people have "forced" others to join the fandom against their own will, but actions like that ruin our reputation even further rather than enhance it. That's obviously not to say that those people never feel comfortable within the fandom, but I feel like peer pressure is **not** the way we should be pushing people into the furry fandom.
+
+The furry fandom is also very LGBT-friendly for the most part, which is a great thing in my opinion. Although I understand that not all cultures and people do not tolerate stuff like that, being able to be yourself in a community like that should be its main selling point. Yes, I understand that some people can be very sensitive to stuff like that due past trauma or other similar events, especially in scenarios when others make jokes about their sexuality. I know that when it comes to political affiliation that things are still quite diverse, but at least us furries do have some sort of common ground. You can be the most conservative person on the planet or the most liberal for that matter and still be a furry. I don't care what your sexuality or political affiliation may be, **as long as you're not a bad apple and have some decent manners**. Sure, I may be bisexual myself but I'm not keeping myself busy with at because I have more important stuff to do and think about. As a furry myself **I don't want to be involved in any extremist movements**, and I don't want this article to become too political, so I'm leaving it at that.
+
+My personality is more pragmatic than idealistic, but that's completely fine, because with this, I can look at problems logically and solve them in a way that's reasonable. A lot of furries are in a lot of positions that are essential for today's society, such as within IT, research and creative fields such as art and design. With these positions, furries like me are able to make a decent living, and with the money left over, we can afford to buy a fursuit. That's not to say that every furry with a job like that does things like that, but from my experience, people with good jobs are often able to afford a fursuit more quickly. Of course that means **you will need things like a reference sheet for your character**, otherwise the people you commission do not know how your character looks like.
+
+Ultimately, being a "furry" is just a hobby in my view. What you do around it is up to you. I for one enjoy other things aside from IT such as railways and cooking. Those other hobbies are mostly combinable with being a furry, as being a furry mostly defines your presence online rather than your personality in real life. Do whatever you feel like is best for you, and don't listen to what the haters say. Although I understand that we as furries have a duty to repond to hate, whether it be on social media or in real life, in a proper and civilized manner, it's often better to just ignore and move on. Only then can you truly become the person (or furry in this case) you always wanted to be.
+
+### My fursona!
+
+For those that are interested, my main sona is a protogen-fox named Sora. He's shy but very curious, and loves to explore new aspects of life.

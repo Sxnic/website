@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content"
+import { formatDate } from "~/utils"
+
+import Footer from "~/components/footer.astro"
+import Base from "~/components/base.astro"
+
+const blogs = await getCollection("blog", ({ data }) => !data.draft)
+---
+
+<Base title="Blog">
+  <main class="mx-auto flex min-h-svh w-full max-w-6xl flex-col px-6 pt-12 pb-6">
+    <h1 class="pb-4 text-3xl font-black">Blog</h1>
+    <p class="text-sm">
+      Here are some things I've been writing or thinking about lately. Nothing special of course
+      because I'm just an ordinary human like everyone else, but I feel like sharing my opinions
+      with the rest of the world, whether they're controversial or not.
+    </p>
+    <div class="flex flex-1 flex-col items-start gap-4 pt-8">
+      {
+        blogs.length > 0 ? (
+          blogs.map((blog) => (
+            <a class="hover:text-fg/75 flex flex-col gap-1" href={`/blog/${blog.id}`}>
+              <h3 class="text-lg font-bold">{blog.data.title}</h3>
+              <p class="text-sm">{formatDate(blog.data.date)}</p>
+              <div class="flex flex-row gap-2">
+                {blog.data.tags &&
+                  blog.data.tags.map((tag) => (
+                    <p class="bg-fg text-bg rounded-md px-2 py-1 font-bold">{tag}</p>
+                  ))}
+              </div>
+            </a>
+          ))
+        ) : (
+          <div>
+            <p class="font-bold italic">nothing here but crickets</p>
+          </div>
+        )
+      }
+    </div>
+
+    <Footer />
+  </main>
+</Base>

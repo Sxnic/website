@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets"
+import { Icon } from "astro-icon/components"
+
+import Base from "~/components/base.astro"
+import Link from "~/components/link.astro"
+
+import localImage from "~/assets/avatar.png"
+
+import { externalLinks } from "~/utils"
+---
+
+<Base>
+  <header class="mx-auto flex min-h-svh w-full max-w-xl flex-col justify-center gap-6 p-6">
+    <div class="flex w-full flex-col items-center rounded-lg border-2 p-6">
+      <Image
+        src={localImage}
+        class="pointer-events-none text-transparent"
+        alt="avatar"
+        format="avif"
+        width={175}
+      />
+      <h1 class="py-2 text-center text-3xl font-black">Sora the Protogen</h1>
+
+      <p class="text-center text-sm">Furry Web Developer, Sysadmin and Railway Advocate</p>
+
+      <div class="flex flex-row items-center gap-4 py-4">
+        {externalLinks.map((l) => <Link url={l.url} icon={l.icon} tooltip={l.name} />)}
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <a
+          class="bg-fg text-bg hover:bg-fg/75 flex flex-row items-center gap-2 rounded-md px-4 py-2 font-black"
+          href="/blog"
+        >
+          <Icon name="lucide:book" size={24} />
+          Blog
+        </a>
+      </div>
+    </div>
+  </header>
+</Base>
